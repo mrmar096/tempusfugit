@@ -28,7 +28,7 @@ final class User extends CI_Controller {
                 $user=$this->input->post();
                 $pass=$user['pass'];
                 $user['pass']=$this->encryption->encrypt($pass);
-                unset($user['submit']);
+
                 if(!$this->user_model->registro($user)){
                     echo json_encode(["status"=>0,"mensaje"=>"No se ha podido Registrar"]);
                 }else{

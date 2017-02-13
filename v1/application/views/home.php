@@ -51,7 +51,7 @@
 
                </div>
             <div class="text-center">
-                <input type="submit" id="registerbtn"  name="submit" value="Registrar" class="btn btn-raised  btn-info"/>
+                <button type="submit" class="btn btn-raised  btn-info">Registrar</button>
             </div>
         </form>
 
