@@ -1,0 +1,101 @@
+body{
+    margin:0!important;
+    padding:0!important;
+    background: url("../img/home/bg.jpg");
+    background-size: cover;
+    font-family: 'Raleway', sans-serif;
+    background-repeat: repeat-y;
+}
+/*Home*/
+#home{
+
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.homebutton{
+    display: block;
+    margin-right:15px!important;
+    float:left!important;
+
+}
+#form-registro-user .form-control{
+    color: #49f6f4!important;
+}
+
+
+/*Carousel Home*/
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+    margin: 0 auto;
+    padding: 10px 5px 10px 5px;
+    height: 400px!important;
+}
+.carousel{
+    margin-bottom:5%;
+
+}
+.carousel-control.left ,.carousel-control.right{
+    width: 5%!important;
+    background: rgb(131,204,237)!important;
+}
+/*Sidebar*/
+.menu-main{
+    margin-left: 1.5%!important;
+    background-color: rgba(30,33,48,0.5)!important;
+    border:none!important;
+    padding-left: 0.5%!important;
+
+}
+#categories-sidebar:hover> #subcategories-sidebar{
+    display:block!important;
+    position: relative!important;
+    left:50px;
+
+}
+#categories-sidebar{
+    overflow: visible!important;
+}
+#subcategories-sidebar{
+    left:0;
+    transition-duration: 1s;
+    display: none!important;
+
+}
+/*Custom CSS*/
+
+.bg-alert-dark{
+    margin-bottom: 10px;
+    padding-left: 2%!important;
+    background-color: rgba(30,33,48,0.5)!important;
+}
+
+.white{
+    color: #F1F1F1!important;
+}
+.dark-blue{
+    color:rgba(30,33,48,0.5)!important;
+}
+.light-blue{
+    color: #49f6f4!important;
+}
+.jumbotron h1{
+    font-size:32px!important;
+    font-weight:bolder;
+}
+.jumbotron {
+    height: 5%!important;
+}
+.jumbotron p{
+    font-size:16px!important;
+
+}
+.row-center{
+    margin:0 auto;
+
+}
+.form-padding{
+    padding:0 5% 0 5%;
+}
+#form-registro-user select >option{
+    background-color: rgba(30,33,48,0.9)!important;
+}
