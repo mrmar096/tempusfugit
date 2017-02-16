@@ -168,7 +168,7 @@ abstract class CI_DB_driver {
 	/**
 	 * Debug flag
 	 *
-	 * Whether to display error messages.
+	 * Whether to display error messages.php.
 	 *
 	 * @var	bool
 	 */

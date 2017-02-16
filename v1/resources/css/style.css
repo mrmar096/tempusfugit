@@ -61,6 +61,11 @@ body{
     display: none!important;
 
 }
+/*Custom nav pills*/
+ul.nav-pills li.no-active a:hover{
+    color: #00b3ee!important;
+    font-weight: bold;
+}
 /*Custom CSS*/
 
 .bg-alert-dark{
@@ -90,7 +95,8 @@ body{
 
 }
 .row-center{
-    margin:0 auto;
+    margin:0 auto!important;
+    text-align: center!important;
 
 }
 .form-padding{
@@ -98,4 +104,21 @@ body{
 }
 #form-registro-user select >option{
     background-color: rgba(30,33,48,0.9)!important;
+}
+.bg-none{
+    background: none!important;
+}
+table thead tr th{
+    background-color: #2e2e2e;
+    color:#00bcd4;
+    text-align: center!important;
+}
+.btn-fab-corner{
+    position: fixed!important;
+    display: block;
+    right: 0;
+    bottom: 0;
+    margin-right: 40px!important;
+    margin-bottom: 40px!important;
+    z-index: 900;
 }

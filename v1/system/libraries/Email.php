@@ -150,7 +150,7 @@ class CI_Email {
 	public $charset		= 'UTF-8';
 
 	/**
-	 * Alternative message (for HTML messages only)
+	 * Alternative message (for HTML messages.php only)
 	 *
 	 * @var	string
 	 */
@@ -209,7 +209,7 @@ class CI_Email {
 	public $send_multipart	= TRUE;
 
 	/**
-	 * Whether to send messages to BCC recipients in batches.
+	 * Whether to send messages.php to BCC recipients in batches.
 	 *
 	 * @var	bool
 	 */
@@ -289,7 +289,7 @@ class CI_Email {
 	protected $_replyto_flag	= FALSE;
 
 	/**
-	 * Debug messages
+	 * Debug messages.php
 	 *
 	 * @see	CI_Email::print_debugger()
 	 * @var	string

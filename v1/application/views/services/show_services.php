@@ -1,4 +1,4 @@
-<div class="row center-block">
+
     <div class="col-md-4">
         <div class="card">
             <div class="card-height-indicator"></div>
@@ -6,7 +6,7 @@
             <div class="card-content">
 
                 <div class="card-image">
-                    <img src="resources/img/test2.jpg" alt="Loading image...">
+                    <img src="<?=base_url('resources/img/test2.jpg')?>" alt="Loading image...">
                     <h3 class="card-image-headline">Lorem Ipsum Dolor</h3>
                 </div>
 
@@ -32,7 +32,7 @@
             <div class="card-content">
 
                 <div class="card-image">
-                    <img src="resources/img/card.jpg" alt="Loading image...">
+                    <img src="<?=base_url('resources/img/card.jpg')?>" alt="Loading image...">
                     <h3 class="card-image-headline">Lorem Ipsum Dolor</h3>
                 </div>
 
@@ -57,7 +57,7 @@
             <div class="card-content">
 
                 <div class="card-image">
-                    <img src="resources/img/card.jpg" alt="Loading image...">
+                    <img src="<?=base_url('resources/img/card.jpg')?>" alt="Loading image...">
                     <h3 class="card-image-headline">Lorem Ipsum Dolor</h3>
                 </div>
 
@@ -82,7 +82,7 @@
             <div class="card-content">
 
                 <div class="card-image">
-                    <img src="resources/img/card.jpg" alt="Loading image...">
+                    <img src="<?=base_url('resources/img/card.jpg')?>" alt="Loading image...">
                     <h3 class="card-image-headline">Lorem Ipsum Dolor</h3>
                 </div>
 
@@ -99,4 +99,3 @@
 
         </div>
     </div>
-</div>

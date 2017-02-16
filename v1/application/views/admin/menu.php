@@ -8,12 +8,6 @@
 </br>
 <li id="categories-sidebar">
     <span class="white"> <a href="<?=base_url('admin/categories')?>" class="btn btn-fab btn-raised btn-fab-mini btn-primary white"><i class="material-icons">format_list_bulleted</i></a> <b> Categorias</b></span>
-    <ul id="subcategories-sidebar" class="list-unstyled">
-        <li>
-            <a href="<?=base_url('admin/subcategories')?>" class="btn btn-fab btn-raised btn-fab-mini btn-info white"><i class="material-icons">format_list_bulleted</i></a>
-            <span class="white"><b>Sub-Categorias</b></span>
-        </li>
-    </ul>
 </li>
 </br>
 <li>

@@ -77,7 +77,7 @@ class CI_Form_validation {
 	protected $_error_array		= array();
 
 	/**
-	 * Array of custom error messages
+	 * Array of custom error messages.php
 	 *
 	 * @var array
 	 */
@@ -155,7 +155,7 @@ class CI_Form_validation {
 	 * Set Rules
 	 *
 	 * This function takes an array of field names and validation
-	 * rules as input, any custom error messages, validates the info,
+	 * rules as input, any custom error messages.php, validates the info,
 	 * and stores it
 	 *
 	 * @param	mixed	$field
@@ -279,7 +279,7 @@ class CI_Form_validation {
 	/**
 	 * Set Error Message
 	 *
-	 * Lets users set their own error messages on the fly. Note:
+	 * Lets users set their own error messages.php on the fly. Note:
 	 * The key name has to match the function name that it corresponds to.
 	 *
 	 * @param	array
@@ -352,7 +352,7 @@ class CI_Form_validation {
 	/**
 	 * Get Array of Error Messages
 	 *
-	 * Returns the error messages as an array
+	 * Returns the error messages.php as an array
 	 *
 	 * @return	array
 	 */
@@ -366,7 +366,7 @@ class CI_Form_validation {
 	/**
 	 * Error String
 	 *
-	 * Returns the error messages as a string, wrapped in the error delimiters
+	 * Returns the error messages.php as a string, wrapped in the error delimiters
 	 *
 	 * @param	string
 	 * @param	string
@@ -446,7 +446,7 @@ class CI_Form_validation {
 			}
 		}
 
-		// Load the language file containing error messages
+		// Load the language file containing error messages.php
 		$this->CI->lang->load('form_validation');
 
 		// Cycle through the rules for each field and match the corresponding $validation_data item
@@ -787,7 +787,7 @@ class CI_Form_validation {
 			// Did the rule test negatively? If so, grab the error.
 			if ($result === FALSE)
 			{
-				// Callable rules might not have named error messages
+				// Callable rules might not have named error messages.php
 				if ( ! is_string($rule))
 				{
 					$line = $this->CI->lang->line('form_validation_error_message_not_set').'(Anonymous function)';

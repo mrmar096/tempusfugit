@@ -118,7 +118,7 @@ DELETE FROM `enabled_days_services`;
 /*!40000 ALTER TABLE `enabled_days_services` DISABLE KEYS */;
 /*!40000 ALTER TABLE `enabled_days_services` ENABLE KEYS */;
 
--- Volcando estructura para tabla tempusfugit.messages
+-- Volcando estructura para tabla tempusfugit.messages.php
 CREATE TABLE IF NOT EXISTS `messages` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `mensaje` text NOT NULL,
@@ -135,10 +135,10 @@ CREATE TABLE IF NOT EXISTS `messages` (
   CONSTRAINT `mess_service_services` FOREIGN KEY (`service`) REFERENCES `services` (`id`) ON DELETE CASCADE ON UPDATE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Volcando datos para la tabla tempusfugit.messages: ~0 rows (aproximadamente)
+-- Volcando datos para la tabla tempusfugit.messages.php: ~0 rows (aproximadamente)
 DELETE FROM `messages`;
-/*!40000 ALTER TABLE `messages` DISABLE KEYS */;
-/*!40000 ALTER TABLE `messages` ENABLE KEYS */;
+/*!40000 ALTER TABLE `messages.php` DISABLE KEYS */;
+/*!40000 ALTER TABLE `messages.php` ENABLE KEYS */;
 
 -- Volcando estructura para tabla tempusfugit.multimedia_services
 CREATE TABLE IF NOT EXISTS `multimedia_services` (

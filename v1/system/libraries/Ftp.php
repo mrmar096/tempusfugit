@@ -86,7 +86,7 @@ class CI_FTP {
 	/**
 	 * Debug flag
 	 *
-	 * Specifies whether to display error messages.
+	 * Specifies whether to display error messages.php.
 	 *
 	 * @var	bool
 	 */

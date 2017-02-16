@@ -83,7 +83,7 @@ class CI_Exceptions {
 	public function __construct()
 	{
 		$this->ob_level = ob_get_level();
-		// Note: Do not log messages from this constructor.
+		// Note: Do not log messages.php from this constructor.
 	}
 
 	// --------------------------------------------------------------------
@@ -91,7 +91,7 @@ class CI_Exceptions {
 	/**
 	 * Exception Logger
 	 *
-	 * Logs PHP generated error messages
+	 * Logs PHP generated error messages.php
 	 *
 	 * @param	int	$severity	Log level
 	 * @param	string	$message	Error message

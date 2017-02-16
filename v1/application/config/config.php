@@ -30,12 +30,12 @@ $config['base_url'] = 'http://192.168.1.201:8088/tempusfugit/v1';
 | Index File
 |--------------------------------------------------------------------------
 |
-| Typically this will be your index.php file, unless you've renamed it to
+| Typically this will be your mm.php file, unless you've renamed it to
 | something else. If you are using mod_rewrite to remove the page set this
 | variable so that it is blank.
 |
 */
-$config['index_page'] = 'index.php';
+$config['index_page'] = '';
 
 /*
 |--------------------------------------------------------------------------
@@ -100,7 +100,7 @@ $config['charset'] = 'UTF-8';
 | setting this variable to TRUE (boolean).  See the user guide for details.
 |
 */
-$config['enable_hooks'] = FALSE;
+$config['enable_hooks'] = TRUE;
 
 /*
 |--------------------------------------------------------------------------
@@ -175,7 +175,7 @@ $config['permitted_uri_chars'] = 'a-z 0-9~%.:_\-';
 |
 | The other items let you set the query string 'words' that will
 | invoke your controllers and its functions:
-| example.com/index.php?c=controller&m=function
+| example.com/mm.php?c=controller&m=function
 |
 | Please note that some of the helpers won't work as expected when
 | this feature is enabled, since CodeIgniter is designed primarily to
@@ -377,10 +377,10 @@ $config['encryption_key'] = 'tempusfugitmario';
 | except for 'cookie_prefix' and 'cookie_httponly', which are ignored here.
 |
 */
-$config['sess_driver'] = 'files';
+$config['sess_driver'] = 'database';
 $config['sess_cookie_name'] = 'ci_session';
 $config['sess_expiration'] = 7200;
-$config['sess_save_path'] = NULL;
+$config['sess_save_path'] = 'ci_sessions';
 $config['sess_match_ip'] = FALSE;
 $config['sess_time_to_update'] = 300;
 $config['sess_regenerate_destroy'] = FALSE;

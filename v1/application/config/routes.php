@@ -53,4 +53,5 @@ $route['default_controller'] = 'navigation';
 
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
-$route['index']='navigation/index';
+$route['contact']='navigation/contact';
+

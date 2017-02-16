@@ -459,7 +459,7 @@ if ( ! function_exists('log_message'))
 	 * Error Logging Interface
 	 *
 	 * We use this as a simple mechanism to access the logging
-	 * class and send messages to be logged.
+	 * class and send messages.php to be logged.
 	 *
 	 * @param	string	the error level: 'error', 'debug' or 'info'
 	 * @param	string	the error message

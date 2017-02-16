@@ -359,7 +359,7 @@ class CI_Image_lib {
 	public $copy_fnc		= 'imagecopyresampled';
 
 	/**
-	 * Error messages
+	 * Error messages.php
 	 *
 	 * @var array
 	 */
@@ -1815,7 +1815,7 @@ class CI_Image_lib {
 	// --------------------------------------------------------------------
 
 	/**
-	 * Show error messages
+	 * Show error messages.php
 	 *
 	 * @param	string
 	 * @param	string

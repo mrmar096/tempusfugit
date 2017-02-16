@@ -210,7 +210,7 @@ class CI_Upload {
 	public $image_size_str = '';
 
 	/**
-	 * Error messages list
+	 * Error messages.php list
 	 *
 	 * @var	array
 	 */

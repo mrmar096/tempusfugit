@@ -130,7 +130,7 @@ class CI_DB_mysql_driver extends CI_DB {
 			$client_flags = $client_flags | MYSQL_CLIENT_SSL;
 		}
 
-		// Error suppression is necessary mostly due to PHP 5.5+ issuing E_DEPRECATED messages
+		// Error suppression is necessary mostly due to PHP 5.5+ issuing E_DEPRECATED messages.php
 		$this->conn_id = ($persistent === TRUE)
 			? mysql_pconnect($this->hostname, $this->username, $this->password, $client_flags)
 			: mysql_connect($this->hostname, $this->username, $this->password, TRUE, $client_flags);

@@ -147,7 +147,7 @@ class CI_Xmlrpc {
 	public $xmlrpcerr		= array();
 
 	/**
-	 * Response error messages list
+	 * Response error messages.php list
 	 *
 	 * @var	string[]
 	 */
