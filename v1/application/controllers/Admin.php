@@ -25,6 +25,10 @@ final class Admin extends CI_Controller
     {
         output_json(['status'=>1,'message'=>'Has intentado eliminar la categoria '.$id]);
     }
+    public function deletesubcategorie($id)
+    {
+        output_json(['status'=>1,'message'=>'Has intentado eliminar la subcategoria '.$id]);
+    }
     public function subcategories()
     {
         $this->load->view('commons/header',['title'=>'Sub-Categorias']);

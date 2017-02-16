@@ -20,8 +20,8 @@
                 <?=$subcategories->categoria?>
             </td>
             <td>
-                <button class="btn  btn-xs btn-raised btn-success" onclick="updateObj(<?=$subcategories->id?>,'table_tr_<?=$subcategories->id?>')"> <i class="material-icons">edit</i> </button>
-                <button class="btn  btn-xs btn-raised btn-danger" onclick="deleteObj(<?=$subcategories->id?> ,'table_tr_<?=$subcategories->id?>')"><i class="material-icons">delete</i> </button>
+                <a  href="<?=base_url('admin/deletesubcategorie/')?>" class="btn  btn-xs btn-raised btn-success" onclick="return updateObj(this.href,<?=$subcategories->id?>,'table_tr_<?=$subcategories->id?>');"> <i class="material-icons">edit</i> </a>
+                <a  href="<?=base_url('admin/deletesubcategorie/')?>" class="btn  btn-xs btn-raised btn-danger" onclick="return deleteObj(this.href,<?=$subcategories->id?> ,'table_tr_<?=$subcategories->id?>');"><i class="material-icons">delete</i> </a>
             </td>
         </tr>
         <?php

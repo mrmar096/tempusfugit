@@ -16,8 +16,8 @@
                 <?=$categorie->nombre?>
             </td>
             <td>
-                <button class="btn  btn-xs btn-raised btn-success" onclick="updateObj(<?=$categorie->id?>,'table_tr_<?=$categorie->id?>')"><i class="material-icons">edit</i> </button>
-                <button class="btn  btn-xs btn-raised  btn-danger" onclick="deleteObj(<?=$categorie->id?>),'table_tr_<?=$categorie->id?>" href=""><i class="material-icons">delete</i> </button>
+                <a href="<?=base_url('admin/deletecategorie/')?>" class="btn  btn-xs btn-raised btn-success" onclick="return updateObj(this.href,<?=$categorie->id?>,'table_tr_<?=$categorie->id?>');"><i class="material-icons">edit</i> </a>
+                <a href="<?=base_url('admin/deletecategorie/')?>" class="btn  btn-xs btn-raised  btn-danger" onclick="return deleteObj(this.href,<?=$categorie->id?>,'table_tr_<?=$categorie->id?>');"><i class="material-icons">delete</i> </a>
             </td>
         </tr>
         <?php

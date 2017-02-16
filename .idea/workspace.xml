@@ -2,59 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5d157775-dfee-45e2-b7ae-9139a09dd760" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/v1/application/controllers/Services.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/v1/application/helpers/Json_helper.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/v1/application/hooks/Control_Access.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/v1/application/views/admin/categories.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/v1/application/views/admin/menu_categories.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/v1/application/views/admin/messages.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/v1/application/views/admin/subcategories.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/v1/application/views/contact.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/v1/application/views/user/logged.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/v1/application/views/user/login.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/v1/application/views/user/menu.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/v1/application/views/user/messages.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/v1/application/views/user/profile.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/v1/application/views/user/register.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/v1/application/views/user/services/messages.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/v1/application/views/user/services/multimedia/mm.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/v1/application/views/user/services/multimedia/opinions.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/v1/application/views/user/services/my_services.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/v1/application/views/commons/menu_admin_main.php" afterPath="$PROJECT_DIR$/v1/application/views/admin/menu.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/v1/application/views/services/index.php" afterPath="$PROJECT_DIR$/v1/application/views/services/show_services.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/v1/resources/js/ajax/registro.js" afterPath="$PROJECT_DIR$/v1/resources/js/ajax/form.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/ae57c9f4-ce5a-4258-8bdc-fcfc6164aeee.xml" afterPath="$PROJECT_DIR$/.idea/dataSources/ae57c9f4-ce5a-4258-8bdc-fcfc6164aeee.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/v1/application/config/autoload.php" afterPath="$PROJECT_DIR$/v1/application/config/autoload.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/v1/application/config/config.php" afterPath="$PROJECT_DIR$/v1/application/config/config.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/v1/application/config/constants.php" afterPath="$PROJECT_DIR$/v1/application/config/constants.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/v1/application/config/hooks.php" afterPath="$PROJECT_DIR$/v1/application/config/hooks.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/v1/application/config/routes.php" afterPath="$PROJECT_DIR$/v1/application/config/routes.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/v1/application/controllers/Admin.php" afterPath="$PROJECT_DIR$/v1/application/controllers/Admin.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/v1/application/controllers/Navigation.php" afterPath="$PROJECT_DIR$/v1/application/controllers/Navigation.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/v1/application/controllers/User.php" afterPath="$PROJECT_DIR$/v1/application/controllers/User.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/v1/application/models/Admin_model.php" afterPath="$PROJECT_DIR$/v1/application/models/Admin_model.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/v1/application/models/User_model.php" afterPath="$PROJECT_DIR$/v1/application/models/User_model.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/v1/application/views/admin/categories.php" afterPath="$PROJECT_DIR$/v1/application/views/admin/categories.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/v1/application/views/admin/subcategories.php" afterPath="$PROJECT_DIR$/v1/application/views/admin/subcategories.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/v1/application/views/commons/footer.php" afterPath="$PROJECT_DIR$/v1/application/views/commons/footer.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/v1/application/views/commons/header.php" afterPath="$PROJECT_DIR$/v1/application/views/commons/header.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/v1/application/views/commons/nav.php" afterPath="$PROJECT_DIR$/v1/application/views/commons/nav.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/v1/application/views/home.php" afterPath="$PROJECT_DIR$/v1/application/views/home.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/v1/node_modules/bootstrap-material-design/sass/_variables.scss" afterPath="$PROJECT_DIR$/v1/node_modules/bootstrap-material-design/sass/_variables.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/v1/resources/css/style.css" afterPath="$PROJECT_DIR$/v1/resources/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/v1/system/core/CodeIgniter.php" afterPath="$PROJECT_DIR$/v1/system/core/CodeIgniter.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/v1/system/core/Common.php" afterPath="$PROJECT_DIR$/v1/system/core/Common.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/v1/system/core/Exceptions.php" afterPath="$PROJECT_DIR$/v1/system/core/Exceptions.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/v1/system/database/DB_driver.php" afterPath="$PROJECT_DIR$/v1/system/database/DB_driver.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/v1/system/database/drivers/mysql/mysql_driver.php" afterPath="$PROJECT_DIR$/v1/system/database/drivers/mysql/mysql_driver.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/v1/system/libraries/Email.php" afterPath="$PROJECT_DIR$/v1/system/libraries/Email.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/v1/system/libraries/Form_validation.php" afterPath="$PROJECT_DIR$/v1/system/libraries/Form_validation.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/v1/system/libraries/Ftp.php" afterPath="$PROJECT_DIR$/v1/system/libraries/Ftp.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/v1/system/libraries/Image_lib.php" afterPath="$PROJECT_DIR$/v1/system/libraries/Image_lib.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/v1/system/libraries/Session/Session_driver.php" afterPath="$PROJECT_DIR$/v1/system/libraries/Session/Session_driver.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/v1/system/libraries/Trackback.php" afterPath="$PROJECT_DIR$/v1/system/libraries/Trackback.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/v1/system/libraries/Upload.php" afterPath="$PROJECT_DIR$/v1/system/libraries/Upload.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/v1/system/libraries/Xmlrpc.php" afterPath="$PROJECT_DIR$/v1/system/libraries/Xmlrpc.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/v1/tempusfugit.sql" afterPath="$PROJECT_DIR$/v1/tempusfugit.sql" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -104,12 +56,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="categories.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="categories.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/v1/application/views/admin/categories.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-              <caret line="18" column="136" selection-start-line="18" selection-start-column="106" selection-end-line="18" selection-end-column="136" />
+            <state relative-caret-position="572">
+              <caret line="26" column="8" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
               <folding>
                 <element signature="n#style#0;n#thead#0;n#table#0;n#!!top" expanded="true" />
               </folding>
@@ -121,7 +72,7 @@
         <entry file="file://$PROJECT_DIR$/v1/application/views/admin/subcategories.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="506">
-              <caret line="23" column="137" selection-start-line="23" selection-start-column="137" selection-end-line="23" selection-end-column="137" />
+              <caret line="23" column="209" selection-start-line="23" selection-start-column="209" selection-end-line="23" selection-end-column="209" />
               <folding>
                 <element signature="n#style#0;n#thead#0;n#table#0;n#!!top" expanded="true" />
               </folding>
@@ -129,11 +80,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="footer.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="footer.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/v1/application/views/commons/footer.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="214">
-              <caret line="28" column="30" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
+            <state relative-caret-position="616">
+              <caret line="52" column="20" selection-start-line="52" selection-start-column="20" selection-end-line="52" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -177,8 +128,8 @@
       <file leaf-file-name="Admin.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/v1/application/controllers/Admin.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="550">
-              <caret line="25" column="83" selection-start-line="25" selection-start-column="83" selection-end-line="25" selection-end-column="83" />
+            <state relative-caret-position="440">
+              <caret line="29" column="72" selection-start-line="29" selection-start-column="72" selection-end-line="29" selection-end-column="72" />
               <folding />
             </state>
           </provider>
@@ -263,9 +214,9 @@
         <option value="$PROJECT_DIR$/v1/application/models/Admin_model.php" />
         <option value="$PROJECT_DIR$/v1/resources/css/style.css" />
         <option value="$PROJECT_DIR$/v1/application/controllers/Admin.php" />
-        <option value="$PROJECT_DIR$/v1/application/views/admin/categories.php" />
-        <option value="$PROJECT_DIR$/v1/application/views/admin/subcategories.php" />
         <option value="$PROJECT_DIR$/v1/application/views/commons/footer.php" />
+        <option value="$PROJECT_DIR$/v1/application/views/admin/subcategories.php" />
+        <option value="$PROJECT_DIR$/v1/application/views/admin/categories.php" />
       </list>
     </option>
   </component>
@@ -836,7 +787,7 @@
       <workItem from="1487007689651" duration="685000" />
       <workItem from="1487181300890" duration="10575000" />
       <workItem from="1487238190790" duration="6377000" />
-      <workItem from="1487247873787" duration="14445000" />
+      <workItem from="1487247873787" duration="15182000" />
     </task>
     <task id="LOCAL-00001" summary="Delete Readme">
       <created>1486973054803</created>
@@ -852,11 +803,18 @@
       <option name="project" value="LOCAL" />
       <updated>1486999935576</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Updated Proyect">
+      <created>1487281125861</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1487281125861</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="94299000" />
+    <option name="totallyTimeSpent" value="95036000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1880" height="1016" extended-state="6" />
@@ -898,7 +856,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Delete Readme" />
-    <option name="LAST_COMMIT_MESSAGE" value="Delete Readme" />
+    <MESSAGE value="Updated Proyect" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated Proyect" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1312,38 +1271,37 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/v1/application/controllers/Admin.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="25" column="83" selection-start-line="25" selection-start-column="83" selection-end-line="25" selection-end-column="83" />
+        <state relative-caret-position="440">
+          <caret line="29" column="72" selection-start-line="29" selection-start-column="72" selection-end-line="29" selection-end-column="72" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/v1/application/views/admin/categories.php">
+    <entry file="file://$PROJECT_DIR$/v1/application/views/commons/footer.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-          <caret line="18" column="136" selection-start-line="18" selection-start-column="106" selection-end-line="18" selection-end-column="136" />
-          <folding>
-            <element signature="n#style#0;n#thead#0;n#table#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="616">
+          <caret line="52" column="20" selection-start-line="52" selection-start-column="20" selection-end-line="52" selection-end-column="20" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/v1/application/views/admin/subcategories.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="506">
-          <caret line="23" column="137" selection-start-line="23" selection-start-column="137" selection-end-line="23" selection-end-column="137" />
+          <caret line="23" column="209" selection-start-line="23" selection-start-column="209" selection-end-line="23" selection-end-column="209" />
           <folding>
             <element signature="n#style#0;n#thead#0;n#table#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/v1/application/views/commons/footer.php">
+    <entry file="file://$PROJECT_DIR$/v1/application/views/admin/categories.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="28" column="30" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
-          <folding />
+        <state relative-caret-position="572">
+          <caret line="26" column="8" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
+          <folding>
+            <element signature="n#style#0;n#thead#0;n#table#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

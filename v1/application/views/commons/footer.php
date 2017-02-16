@@ -27,14 +27,14 @@
 <!--Custom functions-->
 
 <script type="text/javascript">
-   function deleteObj(idObj,idObjHtml) {
+   function deleteObj(url,idObj,idObjHtml) {
        console.log(idObj);
-       var url="<?php echo base_url('admin/deletecategorie/') ?>"+idObj;
+       url+=idObj;
        var objHtml=document.getElementById(idObjHtml);
        console.log(objHtml);
        console.log(url);
        swal.queue([{
-           title: '¿Desea eliminar el registro con id '+idObj+' ?',
+           title: '¿Desea eliminar el elemento con id '+idObj+' ?',
            showCancelButton: true,
            confirmButtonColor: '#f55246',
            confirmButtonText: 'Eliminar',
@@ -50,6 +50,7 @@
            },
            allowOutsideClick: false
        }]);
+       return false;
    }
 
 </script>
