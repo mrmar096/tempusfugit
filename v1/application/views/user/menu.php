@@ -7,7 +7,7 @@
 </li>
 </br>
 <li>
-    <span class="white"> <a href="<?=base_url('user/services')?>" class="btn btn-fab btn-raised btn-fab-mini btn-primary white"><i class="material-icons">format_list_bulleted</i></a> <b> Mis Servicios</b></span>
+    <span class="white"> <a href="<?=base_url('user/my_services')?>" class="btn btn-fab btn-raised btn-fab-mini btn-primary white"><i class="material-icons">format_list_bulleted</i></a> <b> Mis Servicios</b></span>
 </li>
 </br>
 

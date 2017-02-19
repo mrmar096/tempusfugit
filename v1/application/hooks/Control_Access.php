@@ -7,8 +7,8 @@
  */
 class Control_Access
 {
-private $grant = array('','contact', 'user/registro', 'user/login');
-
+private $grant = array('','contact','newmessage', 'user/registro', 'user/login');
+private $grant_admin='admin';
     function __get($name)
     {
         return get_instance()->$name;

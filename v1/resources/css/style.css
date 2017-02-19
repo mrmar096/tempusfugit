@@ -1,16 +1,14 @@
 body{
     margin:0!important;
     padding:0!important;
-    background: url("../img/home/bg.jpg");
-    background-size: cover;
+    background-color: #1f1d1d!important;
     font-family: 'Raleway', sans-serif;
-    background-repeat: repeat-y;
+
 }
 /*Home*/
 #home{
 
-    background-size: cover;
-    background-repeat: no-repeat;
+
 }
 .homebutton{
     display: block;
@@ -121,4 +119,10 @@ table thead tr th{
     margin-right: 40px!important;
     margin-bottom: 40px!important;
     z-index: 900;
+}
+.orange{
+    color: #ff5722!important;
+}
+.orangelight{
+    color: #ff8a65!important;
 }

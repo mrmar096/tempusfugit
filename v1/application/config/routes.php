@@ -54,4 +54,4 @@ $route['default_controller'] = 'navigation';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
 $route['contact']='navigation/contact';
-
+$route['newmessage']='navigation/newmessage';

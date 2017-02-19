@@ -26,6 +26,8 @@ $(function() {
 					if(response.url!=null){
 						window.location.href=response.url;
 						console.log(response.url);
+					}else if(response.html!=null){
+						$(response.element).prepend(response.html);
 					}
 				}else{
 					if(response.message!=null){
