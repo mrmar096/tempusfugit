@@ -58,7 +58,7 @@ $autoload['packages'] = array();
 |
 |	$autoload['libraries'] = array('user_agent' => 'ua');
 */
-$autoload['libraries'] = array('database','encryption','form_validation','session');
+$autoload['libraries'] = array('database','encryption','form_validation','session','table','pagination');
 
 /*
 | -------------------------------------------------------------------
@@ -103,7 +103,7 @@ $autoload['helper'] = array('url','form','security','json_helper','htmlbuilder_h
 | config files.  Otherwise, leave it blank.
 |
 */
-$autoload['config'] = array();
+$autoload['config'] = array('my_config');
 
 /*
 | -------------------------------------------------------------------
@@ -132,4 +132,4 @@ $autoload['language'] = array();
 |
 |	$autoload['model'] = array('first_model' => 'first');
 */
-$autoload['model'] = array('Admin_model'=>'admin_model','User_model'=>'user_model');
+$autoload['model'] = array('Admin_model'=>'admin_model','User_model'=>'user_model','Service_model'=>'sm');

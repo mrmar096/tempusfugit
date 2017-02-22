@@ -10,8 +10,8 @@
             <?php
             if($this->session->userdata("user")) {
                 ?>
-                <a data-target="#dropdown" class="btn btn-info btn-raised btn-fab btn-fab-mini homebutton dropdown-toggle"
-                   data-toggle="dropdown"><i class="material-icons">av_timer</i> </a>
+                <a data-target="#dropdown" class="btn btn-inverse btn-raised btn-fab <?=$color?> homebutton dropdown-toggle"
+                   data-toggle="dropdown"><i class="material-icons"><?= $icon ?></i> </a>
                 <a id="title_nav" class="navbar-brand "><?= $title ?></a>
 
                 <ul class="dropdown-menu menu-main">

@@ -1,108 +1,53 @@
 
-<div class="col-md-4">
+<?php foreach ($servicios as $servicio){?>
+    <div class="col-md-4">
 
-    <div class="card">
+        <div class="card">
 
-        <div class="card-height-indicator"></div>
 
-        <div class="card-content">
 
-            <div class="card-image">
+            <div class="card-content">
 
-                <img src="<?=base_url('resources/img/test2.jpg')?>" alt="Loading image...">
-                <h3 class="card-image-headline">Lorem Ipsum Dolor</h3>
+                <div class="card-image">
+                    <a href="<?=base_url('user/detailservice/'.$servicio->id)?>">
+                        <?php
+                        if(!empty($servicio->multimedia[0])){
+                            if(strpos($servicio->multimedia[0]->type,FILE_IMG_TYPE)!== false) {?>
+                                <img class="img-responsive pull-left" src="<?=base_url($servicio->multimedia[0]->src)?>" alt="<?= $servicio->multimedia[0]->alt?>"/>
+                            <?php }else if(strpos($servicio->multimedia[0]->type,FILE_VIDEO_TYPE)!== false) {?>
+                                <video controls autoplay>
+                                    <source src="<?=base_url($servicio->multimedia[0]->src)?>"  type="<?=$servicio->multimedia[0]->type?>" >
+                                    Your browser does not support the video tag.
+                                </video>
+                            <?php } else {?>
+                                <img class="img-responsive pull-left" src="<?=base_url('resources/img/commons/noimage.png') ?>" alt="<?= $servicio->multimedia[0]->alt?>"/>
+                            <?php }
+                        }else {?>
+                            <img class="img-responsive pull-left" src="<?=base_url('resources/img/commons/noimage.png') ?>" alt="imgen"/>
+                        <?php }
+                        ?>
+                        <h3 class="card-image-headline"><?=$servicio->titulo?></h3>
+                    </a>
+                </div>
+
+
+                <div class="card-body">
+                    <p><?=substr($servicio->descripcion,0,300)."..."?></p>
+                </div>
+
+                <footer class="card-footer">
+                    <div class="row row-center">
+                        <a class="btn pull-left btn-flat btn-xs"><i class="material-icons">format_list_bulleted</i> <?=$servicio->categoria." || ".$servicio->subcategoria?></a>
+                        <a class="text-muted pull-right text-danger"><i class="material-icons">av_timer</i>  <?=$servicio->duracion?></a>
+                    </div>
+                </footer>
+
             </div>
-
-
-            <div class="card-body">
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-            </div>
-
-            <footer class="card-footer">
-                <button class="btn btn-flat"><i class="material-icons">favorite</i> Share</button>
-                <button class="btn btn-flat btn-warning"><i class="material-icons">more</i> Learn More</button>
-                <span class="pull-right">
-                    <a class="text-success btn btn-xs"><i class="material-icons">edit</i></a>
-                    <a class="text-danger btn btn-xs "><i class="material-icons">delete</i></a>
-</span>
-            </footer>
 
         </div>
-
     </div>
-</div>
-<div class="col-md-4">
-    <div class="card">
+    <?php
+}
 
-        <div class="card-height-indicator"></div>
 
-        <div class="card-content">
 
-            <div class="card-image">
-                <img src="<?=base_url('resources/img/card.jpg')?>" alt="Loading image...">
-                <h3 class="card-image-headline">Lorem Ipsum Dolor</h3>
-            </div>
-
-            <div class="card-body">
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-            </div>
-
-            <footer class="card-footer">
-                <button class="btn btn-flat">Share</button>
-                <button class="btn btn-flat btn-warning">Learn More</button>
-            </footer>
-
-        </div>
-
-    </div>
-</div>
-<div class="col-md-4">
-    <div class="card">
-
-        <div class="card-height-indicator"></div>
-
-        <div class="card-content">
-
-            <div class="card-image">
-                <img src="<?=base_url('resources/img/card.jpg')?>" alt="Loading image...">
-                <h3 class="card-image-headline">Lorem Ipsum Dolor</h3>
-            </div>
-
-            <div class="card-body">
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-            </div>
-
-            <footer class="card-footer">
-                <button class="btn btn-flat">Share</button>
-                <button class="btn btn-flat btn-warning">Learn More</button>
-            </footer>
-
-        </div>
-
-    </div>
-</div>
-<div class="col-md-4">
-    <div class="card">
-
-        <div class="card-height-indicator"></div>
-
-        <div class="card-content">
-
-            <div class="card-image">
-                <img src="<?=base_url('resources/img/card.jpg')?>" alt="Loading image...">
-                <h3 class="card-image-headline">Lorem Ipsum Dolor</h3>
-            </div>
-
-            <div class="card-body">
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-            </div>
-
-            <footer class="card-footer">
-                <button class="btn btn-flat">Share</button>
-                <button class="btn btn-flat btn-warning">Learn More</button>
-            </footer>
-
-        </div>
-
-    </div>
-</div>

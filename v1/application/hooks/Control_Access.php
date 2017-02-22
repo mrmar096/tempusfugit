@@ -7,7 +7,7 @@
  */
 class Control_Access
 {
-private $grant = array('','contact','newmessage', 'user/registro', 'user/login');
+private $grant = array('/','contact','newmessage', 'user/registro', 'user/login');
 private $grant_admin='admin';
     function __get($name)
     {
@@ -18,8 +18,8 @@ private $grant_admin='admin';
     function controlAccess()
     {
 
-        $uri = $_SERVER['REQUEST_URI'];
-        $peticion=substr($uri,strpos($uri,'v1')+3);
+        $peticion=$this->uri->segment(1)."/".$this->uri->segment(2);
+
         if(!in_array($peticion,$this->grant)){
             if(!$this->session->userdata("user")){
                 redirect(base_url());

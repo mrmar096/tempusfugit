@@ -27,6 +27,9 @@ $(function() {
 						window.location.href=response.url;
 						console.log(response.url);
 					}else if(response.html!=null){
+						if(response.cleanhtml==true){
+							$(response.element).html("");
+						}
 						$(response.element).prepend(response.html);
 					}
 				}else{

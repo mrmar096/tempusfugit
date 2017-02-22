@@ -12,15 +12,15 @@ class Navigation extends CI_Controller {
 
     public function index()
     {
-        $this->load->view('commons/header', ['title' => 'Home']);
+        $this->load->view('commons/header', ['title' => 'Home','icon'=>'home',"color"=>"btn-inverse"]);
 
         $this->load->view('home', ['cities' => $this->nm->getCities()]);
-        $this->load->view('services/show_services');
+        $this->load->view('services/show_services',["servicios"=>$this->sm->getServices()]);
         $this->load->view('commons/footer');
     }
     public function contact()
     {
-        $this->load->view('commons/header', ['title' => 'Contacta']);
+        $this->load->view('commons/header', ['title' => 'Contacta','icon'=>'contact_mail',"color"=>"btn-warning"]);
         $data=$this->nm->getMessages(["privado"=>false]);
         $this->load->view('contact',["data"=>$data]);
         $this->load->view('commons/footer');
@@ -38,7 +38,9 @@ class Navigation extends CI_Controller {
                 output_json(["status"=>0,"message"=>validation_errors()]);
             }else{
                 $data=$this->input->post();
-                $data["privado"]=$data["privado"]=="on";
+                if(isset($data["privado"])){
+                    $data["privado"]=true;
+                }
                 if($id=$this->nm->newMessage($data)){
                     $data=$this->nm->getMessages(["id"=>$id,"privado"=>false],false);
                     $html=build_list_group_messages($data);

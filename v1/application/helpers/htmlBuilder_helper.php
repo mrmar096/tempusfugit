@@ -19,7 +19,7 @@ if(!function_exists('build_tr')){
                 $td.='<a href="'.$urledit.'" class="btn  btn-xs btn-raised btn-success" data-values="'.implode(",", $values).'" onclick="return updateObj(this,\''.$id_table.'\');"><i class="material-icons">edit</i> </a>';
             }
             if($urldelete){
-                $td.='<a href="'.$urldelete.'" class="btn  btn-xs btn-raised  btn-danger" onclick="return deleteObj(this.href,\''.$id.'\',\''.$id_table.'\');"><i class="material-icons">delete</i> </a>';
+                $td.='<a href="'.$urldelete.'" class="btn  btn-xs btn-raised  btn-danger" onclick="return multipleDelete(this.href,\''.$id.'\',\''.$id_table.'\');"><i class="material-icons">delete</i> </a>';
             }
             $td.='</td>';
             $tr.=$td."</tr>";
@@ -43,10 +43,8 @@ if(!function_exists('build_list_group_messages')){
                     <div class="row-content">
                         <h4 class="list-group-item-heading orangelight">'.$row->nombre.'</h4>
 
-                        <p class="list-group-item-text white">'.$row->comentario.'</p>
+                        <p class="list-group-item-text">'.$row->comentario.'</p>
                     </div>';
-
-            $html.=' <div class="list-group-separator white"></div>';
         }
         return $html;
 
@@ -55,6 +53,29 @@ if(!function_exists('build_list_group_messages')){
 
     }
 
+}else{
+    log_message(LOG_ALERT,'existe la funcion build_tr');
+}
+if(!function_exists('build_checkbox')){
+
+    function build_checkbox($valuesedit="",$edit="",$delete="",$ajax=false){
+        $chekbox="";
+        if($ajax){
+            $chekbox='<div class="form-group"><div class="checkbox">
+                                  <label>
+                                    <input data-values="'.$valuesedit.'" data-edit="'.$edit.'" data-delete="'.$delete.'" type="checkbox">
+                                  <span class="checkbox-material"><span class="check"></span></span>
+                                  </label>
+                                  </div></div>';
+        }else{
+        $chekbox='<div class="form-group"><div class="checkbox">
+                                  <label>
+                                        <input data-values="'.$valuesedit.'" data-edit="'.$edit.'" data-delete="'.$delete.'" type="checkbox">
+                                  </label>
+                                  </div></div>';
+        }
+        return $chekbox;
+    }
 }else{
     log_message(LOG_ALERT,'existe la funcion build_tr');
 }

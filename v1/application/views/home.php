@@ -1,4 +1,4 @@
-<div class="row bg-alert-dark">
+<div class="row bg-alert-dark" id="home">
     <div class="col-md-7">
         <div class="row">
             <img src="<?=base_url()?>resources/img/home/home_screen.png" class="img-responsive" height="150"/>

@@ -1,2 +1,4 @@
-<h1>My Services</h1>
-<?php $this->load->view('services/show_services')?>
+
+<?php if(isset($servicios)) $this->load->view('services/show_services',$servicios);?>
+
+<a class="btn btn-fab btn-default btn-fab-corner btn-inverse" href="<?=base_url('user/servicesFormDialog')?>" onclick="return getFormData(this.href)"><i class="material-icons">add</i> </a>

@@ -87,5 +87,24 @@ defined('EXIT__AUTO_MAX')      OR define('EXIT__AUTO_MAX', 125); // highest auto
 //Custom Costants
 define('NORMAL_USER',0);
 define('ADMIN_USER',1);
+define('FILE_IMG_TYPE','image');
+define('FILE_VIDEO_TYPE','video');
+//ICONS
+define('PRIVATE_ICON'         ,'<i class="material-icons text-danger">visibility_off</i>');
+define('PUBLIC_ICON'         ,'<i class="material-icons text-success">visibility</i>');
+
+//TABLES DB CONSTANTS
+define('TABLE_CITY'             ,'cities');
+define('TABLE_CATEGORIES'       ,'categories');
+define('TABLE_SUBCATEGORIES'    ,'subcategories');
+define('TABLE_CONTACT'          ,'contact');
+define('TABLE_APT'              ,'apt');
+define('TABLE_SERVICES'         ,'services');
+define('TABLE_OP_MM_SERVICES'   ,'opinions_mm_services');
+define('TABLE_MM_SERVICES'      ,'multimedia_services');
+define('TABLE_USER'             ,'users');
+define('TABLE_MESSAGES'         ,'messages');
+
+
 
 

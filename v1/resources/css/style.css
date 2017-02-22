@@ -1,12 +1,14 @@
 body{
-    margin:0!important;
+    margin-top:0!important;
+    margin-bottom:1em!important;
     padding:0!important;
     background-color: #1f1d1d!important;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Volkhov', serif;
 
 }
-/*Home*/
-#home{
+
+div.container-fluid > div.center-block{
+    margin-left: 10px!important;
 
 
 }
@@ -111,6 +113,10 @@ table thead tr th{
     color:#00bcd4;
     text-align: center!important;
 }
+table td{
+    text-align: center!important;
+    vertical-align: inherit!important;
+}
 .btn-fab-corner{
     position: fixed!important;
     display: block;
@@ -120,9 +126,24 @@ table thead tr th{
     margin-bottom: 40px!important;
     z-index: 900;
 }
+.pagination{
+    position: fixed!important;
+    display: block!important;
+    bottom: 0;
+    margin-right: auto!important;
+    margin-left:auto!important;
+    margin-bottom: 20px!important;
+    z-index: 900;
+}
 .orange{
     color: #ff5722!important;
 }
 .orangelight{
     color: #ff8a65!important;
+}
+video{
+    cursor: pointer!important;
+}
+.card{
+    margin-top:1em;
 }
